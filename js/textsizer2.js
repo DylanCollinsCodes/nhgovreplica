@@ -21,6 +21,10 @@ const adjustFontSize = (num) => {
 	}
 }
 
+if(localStorage.getItem('fontSize')){
+	console.log('Default Size Found')
+}
+
 // Everything below this is legacy code
 /*-----
 ** text sizer State of NH, Web Services Division
