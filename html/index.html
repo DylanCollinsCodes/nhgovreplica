@@ -14,12 +14,11 @@
 <link href="../css/sm-screen.css" rel="stylesheet" type="text/css" media="screen and (min-device-width: 320px) and (max-device-width: 729px)" />
 <link href="../css/contribute.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="../css/print.css" rel="stylesheet" type="text/css" media="print" />
-<script type="text/javascript" src="../js/textsizer2.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <!-- This is an optional area that should only be used for HIGH priority content like storm notices and other emergencies  --> 
-<!--<div id="high-profile"><h1>Important Notice</h1><p>This is the location that extremely high profile information will go.</p></div> --> 
+<!-- <div id="high-profile"><h1>Important Notice</h1><p>This is the location that extremely high profile information will go.</p></div>  -->
 <!-- end of High Profile Information area  -->
 <div id="pagecontainer">
 	
@@ -34,7 +33,7 @@
 				<div class="official-nh"></div>
 				
 				<!-- Begin Fontsizer -->
-				<div class="fontsizer"> <a href="javascript:ts('body',-1)"><img src="../graphics/a-small.png" alt="Smaller text size" width="16" height="18" /></a> <a href="javascript:ts('body',0)"><img src="../graphics/a-med.png" alt="Reset text size" width="16" height="18" /></a> <a href="javascript:ts('body',1)"><img src="../graphics/a-large.png" alt="Larger text size" width="16" height="18" /></a><br />
+				<div class="fontsizer"> <a href="javascript:adjustFontSize(-1)"><img src="../graphics/a-small.png" alt="Smaller text size" width="16" height="18" /></a> <a href="javascript:adjustFontSize()"><img src="../graphics/a-med.png" alt="Reset text size" width="16" height="18" /></a> <a href="javascript:adjustFontSize(1)"><img src="../graphics/a-large.png" alt="Larger text size" width="16" height="18" /></a><br />
 				</div>
 				<!-- End Fontsizer --> 
 				
@@ -297,5 +296,6 @@ function googleTranslateElementInit() {
 		</footer>	
 		<!-- End Footer -->
 	</div>
+    <script type="text/javascript" src="../js/textsizer2.js"></script>
 </body>
 <!-- InstanceEnd --></html>
